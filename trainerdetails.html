@@ -49,15 +49,27 @@
                   <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="trainers1.html">Trainer</a>
+                    <a class="nav-link" href="about-us.html">About</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trainers.html">Trainer</a>
                   </li>
   
-                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="signup.html">As a Member</a>
+                      <a class="dropdown-item" href="#">As a Trainer</a>
+                      
+                    </div>
+    
+                  </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="profile.html">Profile</a>
+                  <a class="nav-link" href="login.html">Login</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Logout</a>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
                 
               </ul>
@@ -68,53 +80,144 @@
         </nav>
       </header>
       <!-- END header -->
-      <!-- Banner Section Begin -->
-    <section class="banner-section set-bg" style="background-color:#f5f5f5; padding:50px ;" >
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <img src="img/trainerdetails.jpg" alt="">
+    <!-- Header End -->
+    
+<div class="container" style="margin: 50px auto;">
+    <div class="row">
+      <div class="col-xs-12 ">
+        <nav>
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Profile</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Certificate</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Degrees</a>
+            
           </div>
-              <div class="col-lg-6 offset-md-1 text-center">
-                  <div class="banner-text ">
-                      <h2>Vijay Chauhan</h2>
-                      <h5>Sport Coach</h5>
-                      <p>Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                         .</p>
-                         <h5 class="mb-2">Mumbai, Maharashtra</h5>
-          <h5 class="mb-2"> Height : 6ft</h5>
-          <h5 class="mb-2">Weight : 70kg</h5>
-          <a href="https://youtu.be/N3e8UXMdqOM">10 Minutes Workout demo</a> <br>
-             <a href="https://youtu.be/N3e8UXMdqOM">5 Minutes Workout demo</a> <br> <br>
-                      <a href="#" class="primary-btn banner-btn">Book Now</a>
+        </nav>
+        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="well">
+                <div class="container">
+                  <div class="row py-5 px-5">
+                    <div class="col-lg-6">
+                      <img src="img/trainerdetails.jpg" alt="" >
+                  </div>
+                      <div class="col-lg-6 ">
+                          <div class="details">
+                              <h2>Vijay Chauhan</h2>
+                              <h5>Sport Coach</h5>
+                              <p>Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                 .</p>
+                                 <h5 class="mb-2">Mumbai, Maharashtra</h5>
+                  <h5 class="mb-2"> Height : 6ft</h5>
+                  <h5 class="mb-2">Weight : 70kg</h5>
+                  <a href="https://youtu.be/N3e8UXMdqOM">10 Minutes Workout demo</a> <br>
+                     <a href="https://youtu.be/N3e8UXMdqOM">5 Minutes Workout demo</a> <br> <br>
+                     <button type="button" class="btn py-3 px-5 " style="background-color: #146935 !important; color: #fff;" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Book Now</button>
+                     
+                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                       <div class="modal-dialog" role="document">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalLabel">Confirm Booking</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span aria-hidden="true">&times;</span>
+                             </button>
+                           </div>
+                           <div class="modal-body">
+                             <form>
+                               
+                               <div class="col-md-12 form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="form-control py-2">
+                              </div>
+                              <div class="col-md-12 form-group">
+                                <label for="name">Email</label>
+                                <input type="email" id="name" class="form-control py-2">
+                              </div>
+                              <div class="col-md-12 form-group">
+                                <label for="name">Contact</label>
+                                <input type="number" id="name" class="form-control py-2">
+                              </div>
+                              <div class="col-md-12 form-group required">
+                                <label for="name" class="control-label">Enquiry</label> <br>
+                                <textarea rows="1" cols="50" name="comment" form="usrform"  class="form-control">
+                                  </textarea>
+                              </div>
+                             </form>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                             <button type="button" class="btn btn-primary" style="background-color: #146935 !important;">Book Now</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                          </div>
+                      </div>
+                     
                   </div>
               </div>
-             
+    
+</div>
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+         <!-- Gym Award Section Begin -->
+    <section class="gym-award spad">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7">
+                  <div class="award-text">
+                      <h2>Best Sport award Certificate</h2>
+                      <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin,
+                          nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a
+                          amet.</p>
+                      <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero
+                          sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam
+                          semper libero sit amet.</p>
+                  </div>
+              </div>
+              <div class="col-lg-5">
+                  <img src="img/award.jpg" alt="">
+              </div>
+          </div>
+       
+      </div>
+      
+  </section>
+  <!-- Gym Award Section End -->
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+           <!-- Gym Award Section Begin -->
+    <section class="gym-award spad">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7">
+                  <div class="award-text">
+                      <h2>Sport Trainer Degree</h2>
+                      <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin,
+                          nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a
+                          amet.</p>
+                      <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero
+                          sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam
+                          semper libero sit amet.</p>
+                  </div>
+              </div>
+              <div class="col-lg-5">
+                  <img src="img/award.jpg" alt="">
+              </div>
           </div>
       </div>
   </section>
-  <!-- Banner Section End -->
-
-  <!-- Gym Award Section Begin -->
-  <section class="gym-award spad" >
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="award-text">
-                    <h2>Best Coach award</h2>
-                    <img src="img/award.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="award-text text-center">
-                <h2>Certificate</h2>
-                <img src="img/award.jpg" alt="">
-            </div>
-            </div>
+  <!-- Gym Award Section End -->
+          </div>
+         
         </div>
+      
+      </div>
     </div>
-</section>
-<!-- Gym Award Section End -->
+</div>
+</div>
+</div>
 
 
      

@@ -808,33 +808,24 @@ header {
 /*---------------------
   Banner Section
 -----------------------*/
-
 .banner-section {
 	padding-top: 65px;
 }
 .banner-text {
-	padding-top: 15px;
+	padding-top: 145px;
 }
 .banner-text h2 {
 	font-size: 40px;
-	color: #000;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-
-.banner-text h5{
-	font-size: 20px;
-	color: #000;
+	color: #ffffff;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 .banner-text p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 30px;
-	color: #000;
-	margin-bottom: 15px;
+	color: #ffffff;
+	margin-bottom: 50px;
 }
 /*---------------------
   Membership Section
@@ -2170,3 +2161,67 @@ header {
 	padding: 5em 0;
   }
 	  
+  nav > .nav.nav-tabs{
+
+	border: none;
+	  color:#fff;
+	  background:#272e38;
+	  border-radius:0;
+  
+  }
+  nav > div a.nav-item.nav-link,
+  nav > div a.nav-item.nav-link.active
+  {
+	border: none;
+	  padding: 18px 25px;
+	  color:#fff;
+	  background:#272e38;
+	  border-radius:0;
+  }
+  
+  nav > div a.nav-item.nav-link.active:after
+   {
+	content: "";
+	position: relative;
+	bottom: -60px;
+	left: -10%;
+	border: 15px solid transparent;
+	border-top-color: #146935 ;
+  }
+  .tab-content{
+	background: #fdfdfd;
+	  line-height: 25px;
+	  border: 1px solid #ddd;
+	  border-top:5px solid  #146935;
+	  border-bottom:5px solid #146935;
+	  padding:30px 25px;
+  }
+  
+  nav > div a.nav-item.nav-link:hover,
+  nav > div a.nav-item.nav-link:focus
+  {
+	border: none;
+	  background: #146935;
+	  color:#fff;
+	  border-radius:0;
+	  transition:background 0.20s linear;
+  }
+ .details{
+	 margin-top: 20px;
+ }
+ .details h2{
+	font-size: 45px;
+	padding-bottom: 15px;
+}
+.details h5{
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+.details a{
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.details a:hover{
+	color: #146935;
+}
