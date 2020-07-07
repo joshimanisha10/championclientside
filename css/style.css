@@ -2167,6 +2167,8 @@ header {
 	  color:#fff;
 	  background:#272e38;
 	  border-radius:0;
+	 width: 1000px;
+	
   
   }
   nav > div a.nav-item.nav-link,
@@ -2195,6 +2197,7 @@ header {
 	  border-top:5px solid  #146935;
 	  border-bottom:5px solid #146935;
 	  padding:30px 25px;
+	  width: 1000px;
   }
   
   nav > div a.nav-item.nav-link:hover,
@@ -2207,14 +2210,14 @@ header {
 	  transition:background 0.20s linear;
   }
  .details{
-	 margin-top: 20px;
+	
  }
  .details h2{
 	font-size: 45px;
 	padding-bottom: 15px;
 }
 .details h5{
-	font-size: 20px;
+	font-size: 18px;
 	padding-bottom: 15px;
 }
 
