@@ -105,8 +105,8 @@ ul, ol {
 	background-position: top center;
 }
 .spad {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .spad-2 {
 	padding-top: 50px;
@@ -2214,7 +2214,7 @@ header {
 	padding-bottom: 15px;
 }
 .details h5{
-	font-size: 25px;
+	font-size: 20px;
 	padding-bottom: 15px;
 }
 
@@ -2225,3 +2225,19 @@ header {
 .details a:hover{
 	color: #146935;
 }
+
+@media (max-width: 600px) {
+	iframe{
+	 width: 450px;
+	 height: 315px;
+	 padding: 0;
+	}
+  }
+
+  @media (max-width: 329px) {
+	iframe{
+	 width: 300px;
+	 height: 315px;
+	 padding: 0;
+	}
+  }
