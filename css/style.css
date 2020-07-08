@@ -2112,11 +2112,20 @@ header {
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 450px){
     .search-sec{
-        
+	   margin-top: -130px; 
+	   background-color: rgba(51, 55, 58, 0.51);
     }
 }
+
+@media (max-width: 450px){
+    .search-sec h2{
+	  color: #fff;
+	  font-size: 32px; 
+    }
+}
+
 
 .form-wrap {
 	position: relative;
@@ -2239,9 +2248,10 @@ header {
 
   @media (max-width: 329px) {
 	iframe{
-	 width: 300px;
-	 height: 315px;
+	 width: 280px;
+	 height: 280px;
 	 padding: 0;
+	 margin: 0;
 	}
   }
   
