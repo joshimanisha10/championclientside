@@ -2167,7 +2167,7 @@ header {
 	  color:#fff;
 	  background:#272e38;
 	  border-radius:0;
-	 width: 1000px;
+	 width: 100%;
 	
   
   }
@@ -2197,7 +2197,7 @@ header {
 	  border-top:5px solid  #146935;
 	  border-bottom:5px solid #146935;
 	  padding:30px 25px;
-	  width: 1000px;
+	  width: 100%;
   }
   
   nav > div a.nav-item.nav-link:hover,
@@ -2244,3 +2244,54 @@ header {
 	 padding: 0;
 	}
   }
+  
+.block-22 {
+	padding: 100px 0px !important;
+	
+  }
+  
+  .block-22 .heading h2{
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff !important;
+	padding-bottom:10px ;
+  }
+  
+  .block-22 p {
+	color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .block-22 p:last-child {
+	margin-bottom: 100px;
+  }
+  
+  .block-22 .subscribe .form-group {
+	position: relative;
+  }
+  
+  .block-22 .subscribe .email {
+	height: 50px;
+	border-radius: 4px;
+	background: #fff;
+	border: none !important;
+  }
+  
+  .block-22 .subscribe .submit {
+	position: absolute;
+	top: 5px;
+	right: 6px;
+  }
+  
+  .block-22 .btn{
+	color: white;
+	background-color: #63d471 !important;
+	background-image: linear-gradient(315deg, #63d471 0%, #233329 74%) !important;
+	font-size: 18px;
+  }
+  .block-22 .btn:hover{
+	color: #fff;
+   border: #000 1px solid;
+   
+  
+  }
+  
